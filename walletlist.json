@@ -19,24 +19,6 @@
     "platforms": ["ios", "android", "chrome", "firefox"]
   },
   {
-    "app_name": "mytonwallet",
-    "name": "MyTonWallet",
-    "image": "https://mytonwallet.io/icon-256.png",
-    "about_url": "https://mytonwallet.io",
-    "universal_url": "https://connect.mytonwallet.org",
-    "bridge": [
-      {
-        "type": "js",
-        "key": "mytonwallet"
-      },
-      {
-        "type": "sse",
-        "url": "https://tonconnectbridge.mytonwallet.org/bridge/"
-      }
-    ],
-    "platforms": ["chrome", "windows", "macos", "linux"]
-  },
-  {
     "app_name": "tonhub",
     "name": "Tonhub",
     "image": "https://tonhub.com/tonconnect_logo.png",
@@ -53,19 +35,4 @@
       }
     ],
     "platforms": ["ios", "android"]
-  },
-
-  {
-    "app_name": "tonwallet",
-    "name": "TON Wallet",
-    "image": "https://wallet.ton.org/assets/ui/qr-logo.png",
-    "about_url": "https://chrome.google.com/webstore/detail/ton-wallet/nphplpgoakhhjchkkhmiggakijnkhfnd",
-    "bridge": [
-      {
-        "type": "js",
-        "key": "tonwallet"
-      }
-    ],
-    "platforms": ["chrome"]
   }
-]
